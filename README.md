@@ -39,3 +39,5 @@
       `ChatGPT API`
       </a>
     </span>
+
+<!-- 참고 링크 : https://www.youtube.com/watch?v=V6Hq_EX2LLM&list=WL&index=9&t=742s&ab_channel=SonnySangha -->
