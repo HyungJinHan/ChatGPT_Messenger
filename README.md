@@ -34,8 +34,8 @@
   <br><br>
     <span align='center'>
       <a href='https://openai.com/blog/chatgpt/'>
-        <img width='8%' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png'/>
-        <br>
-        `ChatGPT API`
+      <img width='8%' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png'/>
+      <br>
+      `ChatGPT API`
       </a>
     </span>
