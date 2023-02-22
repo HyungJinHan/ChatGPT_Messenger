@@ -16,7 +16,7 @@ const NewChat = () => {
       collection(db, "users", session?.user?.email!, "chats"),
       {
         userId: session?.user?.email!,
-        createdAt: serverTimestamp(),
+        createAt: serverTimestamp(),
       }
     );
 
