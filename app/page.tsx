@@ -20,7 +20,6 @@ const HomePage = () => {
       <div className="flex space-x-2 text-center">
         <div>
           <div className="flex flex-col items-center justify-center mb-5">
-            {/* Sun Icon */}
             <SunIcon className="h-8 w-8 animate-pulse" />
             <h2>Examples</h2>
           </div>
@@ -36,7 +35,6 @@ const HomePage = () => {
 
         <div>
           <div className="flex flex-col items-center justify-center mb-5">
-            {/* Bolt Icon */}
             <BoltIcon className="h-8 w-8 animate-pulse" />
             <h2>Capabilities</h2>
           </div>
@@ -54,7 +52,6 @@ const HomePage = () => {
 
         <div>
           <div className="flex flex-col items-center justify-center mb-5">
-            {/* ExclamationTriangleIcon Icon */}
             <ExclamationTriangleIcon className="h-8 w-8 animate-pulse" />
             <h2>Limitation</h2>
           </div>
