@@ -42,4 +42,4 @@
 
 <br>
 
-<!-- 참고 링크 : https://www.youtube.com/watch?v=V6Hq_EX2LLM&list=WL&index=9&t=742s&ab_channel=SonnySangha -->
+<!-- 참고 링크 : https://www.youtube.com/watch?v=V6Hq_EX2LLM&list=WL&index=9&t=742s&ab_channel=SonnySangha (2:35:50까지 진행) -->
