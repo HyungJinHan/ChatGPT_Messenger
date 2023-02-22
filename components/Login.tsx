@@ -2,10 +2,13 @@
 
 import { signIn } from "next-auth/react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import ChatGPTLogo from "../public/ChatGPT_logo.svg";
 import GoogleLogo from "../public/GoogleLogo.svg";
 
 const Login = () => {
+  const router = useRouter();
+
   return (
     <div className="bg-[#74AA9C] h-screen flex flex-col items-center justify-center text-center">
       <Image src={ChatGPTLogo} width={300} height={300} alt="logo" />
@@ -14,7 +17,10 @@ const Login = () => {
       </span>
       <button
         className="text-[#74AA9C] bg-white font-bold text-3xl loginButton"
-        onClick={() => signIn("google")}
+        onClick={() => {
+          signIn("google");
+          router.replace("/");
+        }}
       >
         <Image
           className="inline-flex mr-3"

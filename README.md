@@ -1,6 +1,16 @@
 # ChatGPT Messenger
 
-`TypeScript`를 기반으로 진행하며, `OpenAI API`를 활용한 `ChatGPT Messenger` 프로젝트입니다.
+<div align='center'>
+<img src="./public/loginscreen.png">
+</div>
+
+<br>
+
+<div align='center'>
+
+### `TypeScript`를 기반의 `OpenAI API`를 활용한 `ChatGPT Messenger` 프로젝트입니다.
+
+</div>
 
 <br>
 
@@ -41,5 +51,15 @@
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=OpenAI&logoColor=white">
 
 <br>
+
+# 3. 프로젝트 상세 내용 (진행 중...)
+
+<div align='center'>
+
+| ChatGPT 메인 화면                 |
+| --------------------------------- |
+| <img src="./public/mainchat.png"> |
+
+</div>
 
 <!-- 참고 링크 : https://www.youtube.com/watch?v=V6Hq_EX2LLM&list=WL&index=9&t=742s&ab_channel=SonnySangha (2:35:50까지 진행) -->
