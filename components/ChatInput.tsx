@@ -4,6 +4,7 @@ import { PaperAirplaneIcon } from "@heroicons/react/24/solid";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { useSession } from "next-auth/react";
 import { FormEvent, useState } from "react";
+import { toast } from "react-hot-toast";
 import { db } from "../firebase";
 
 type Props = {
@@ -35,7 +36,9 @@ const ChatInput = ({ chatId }: Props) => {
           `https:ui-avatars.com/api/?name=${session?.user?.name}`,
       },
     };
+
     // Toast Notification to say Loading...
+    const notification = toast.loading("ChatGPT is thinking...");
 
     await addDoc(
       collection(
@@ -63,6 +66,9 @@ const ChatInput = ({ chatId }: Props) => {
       }),
     }).then(() => {
       // Toast Notification to say successful
+      toast.success("ChatGPT has responded!", {
+        id: notification,
+      });
     });
   };
 
