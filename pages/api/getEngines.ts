@@ -10,7 +10,10 @@ type Data = {
   modelOptions: Option[];
 };
 
-const handler = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse<Data>
+) {
   const models = await openai.listModels().then((res) => res.data.data);
 
   const modelOptions = models.map((model) => ({
@@ -21,6 +24,4 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
   res.status(200).json({
     modelOptions,
   });
-};
-
-export default handler;
+}

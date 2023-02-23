@@ -6,6 +6,7 @@ import { useSession } from "next-auth/react";
 import { FormEvent, useState } from "react";
 import { toast } from "react-hot-toast";
 import { db } from "../firebase";
+import ModelSelection from "./ModelSelection";
 
 type Props = {
   chatId: string;
@@ -17,6 +18,7 @@ const ChatInput = ({ chatId }: Props) => {
 
   // useSWR to get model
   const model = "text-davinci-003";
+  // Open AI의 GPT-3 모델의 종류
 
   const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -93,7 +95,9 @@ const ChatInput = ({ chatId }: Props) => {
         </button>
       </form>
 
-      <div>{/* Model Selection */}</div>
+      <div className="md:hidden">
+        <ModelSelection />
+      </div>
     </div>
   );
 };

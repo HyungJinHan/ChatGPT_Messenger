@@ -1,7 +1,12 @@
 # ChatGPT Messenger
 
 <div align='center'>
+<a href='https://chatgpt-messenger-hyungjinhan.vercel.app/'>
 <img src="./public/loginscreen.png">
+</a>
+
+### ▲ 이미지 클릭으로 `ChatGPT Messenger` 사이트로 이동 ▲
+
 </div>
 
 <br>
@@ -17,7 +22,8 @@
 # 1. Tech
 
 - Front-End
-  <br><br>
+  <br>
+
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=424242">&nbsp;
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white">&nbsp;
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white">&nbsp;
@@ -25,21 +31,26 @@
 
 <br>
 
-<!-- - Deploy
-  <br><br>
-      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white">
-<br>
--->
-
 - Back-End
-  <br><br>
+  <br>
+
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white">&nbsp;
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=black">
 
 <br>
 
+- Deploy
+  <br>
+
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white">&nbsp;
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=black">&nbsp;
+  <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=flat-square&logo=Google Cloud&logoColor=white">
+
+<br>
+
 - Edit Tool
-  <br><br>
+  <br>
+
   <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white">&nbsp;
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white">&nbsp;
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white">
@@ -47,12 +58,13 @@
 <br>
 
 - Chat API
-  <br><br>
+  <br>
+
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=OpenAI&logoColor=white">
 
 <br>
 
-# 3. 프로젝트 상세 내용 (진행 중...)
+# 3. 프로젝트 상세 내용 (수정 예정)
 
 <div align='center'>
 
@@ -61,5 +73,3 @@
 | <img src="./public/mainchat.png"> |
 
 </div>
-
-<!-- 참고 링크 : https://www.youtube.com/watch?v=V6Hq_EX2LLM&list=WL&index=9&t=742s&ab_channel=SonnySangha (2:35:50까지 진행) -->
