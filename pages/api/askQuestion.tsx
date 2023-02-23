@@ -27,7 +27,6 @@ export default async function handler(
 
   // const message: Message = {
   //   text: response || "ChatGPT was unable to find an answer for that!",
-  //   //
   // };
 
   res.status(200).json({ answer: "John Doe" });
