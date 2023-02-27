@@ -1,3 +1,6 @@
+"use client";
+
+import * as React from "react";
 import Chat from "../../../components/Chat";
 import ChatInput from "../../../components/ChatInput";
 
@@ -8,12 +11,12 @@ type Props = {
 };
 
 const ChatPage = ({ params: { id } }: Props) => {
-  console.log(id);
+  const scrollRef = React.useRef<HTMLInputElement>(null);
 
   return (
     <div className="flex flex-col h-screen overflow-hidden">
-      <Chat chatId={id} />
-      <ChatInput chatId={id} />
+      <Chat chatId={id} scrollRef={scrollRef} />
+      <ChatInput chatId={id} scrollRef={scrollRef} />
     </div>
   );
 };

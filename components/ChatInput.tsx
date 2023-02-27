@@ -10,9 +10,10 @@ import ModelSelection from "./ModelSelection";
 
 type Props = {
   chatId: string;
+  scrollRef: any;
 };
 
-const ChatInput = ({ chatId }: Props) => {
+const ChatInput = ({ chatId, scrollRef }: Props) => {
   const [prompt, setPrompt] = useState<string>("");
   const { data: session } = useSession();
 
@@ -22,10 +23,13 @@ const ChatInput = ({ chatId }: Props) => {
 
   const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
     if (!prompt) return;
 
     const input = prompt.trim();
     setPrompt("");
+
+    scrollRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
 
     const message: Message = {
       text: input,
@@ -71,6 +75,7 @@ const ChatInput = ({ chatId }: Props) => {
       toast.success("ChatGPT has responded!", {
         id: notification,
       });
+      scrollRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
     });
   };
 

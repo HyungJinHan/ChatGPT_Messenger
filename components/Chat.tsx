@@ -9,9 +9,10 @@ import Message from "./Message";
 
 type Props = {
   chatId: string;
+  scrollRef: any;
 };
 
-const Chat = ({ chatId }: Props) => {
+const Chat = ({ chatId, scrollRef }: Props) => {
   const { data: session } = useSession();
 
   const [messages] = useCollection(
@@ -39,9 +40,8 @@ const Chat = ({ chatId }: Props) => {
           <ArrowDownCircleIcon className="h-10 w-10 mx-auto mt-5 text-white animate-bounce" />
         </>
       )}
-
       {messages?.docs.map((message) => (
-        <Message key={message.id} message={message.data()} />
+        <Message scrollRef={scrollRef} message={message.data()} />
       ))}
     </div>
   );
