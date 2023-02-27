@@ -2,8 +2,10 @@
 
 <div align='center'>
 <a href='https://chatgpt-messenger-hyungjinhan.vercel.app/'>
-<img src="./public/loginscreen.png">
+<img width='50%' src="./public/chatGpt.svg">
 </a>
+
+<br>
 
 ### ▲ 이미지 클릭으로 `ChatGPT Messenger` 사이트로 이동 ▲
 
@@ -13,7 +15,7 @@
 
 <div align='center'>
 
-### `TypeScript`를 기반의 `OpenAI API`를 활용한 `ChatGPT Messenger` 프로젝트입니다.
+### `TypeScript`를 기반의 `OpenAI API`를 활용한 `ChatGPT Messenger` 클론 프로젝트입니다.
 
 </div>
 
@@ -64,12 +66,28 @@
 
 <br>
 
-# 3. 프로젝트 상세 내용 (수정 예정)
+# 3. 프로젝트 상세 내용
 
 <div align='center'>
 
-| ChatGPT 메인 화면                 |
-| --------------------------------- |
-| <img src="./public/mainchat.png"> |
+| Login / New Chat / Select Models |
+| -------------------------------- |
+| <img src="./public/gpt1.gif">    |
+
+| Delete Chats / Chatting       |
+| ----------------------------- |
+| <img src="./public/gpt2.gif"> |
+
+| Compare Models                |
+| ----------------------------- |
+| <img src="./public/gpt3.gif"> |
+
+| Logout                        |
+| ----------------------------- |
+| <img src="./public/gpt4.gif"> |
+
+| Tablet Version                |
+| ----------------------------- |
+| <img src="./public/gpt5.gif"> |
 
 </div>
