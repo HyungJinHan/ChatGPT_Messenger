@@ -43,6 +43,7 @@ const Chat = ({ chatId, scrollRef }: Props) => {
       {messages?.docs.map((message) => (
         <Message scrollRef={scrollRef} message={message.data()} />
       ))}
+      <p ref={scrollRef}></p>
     </div>
   );
 };
