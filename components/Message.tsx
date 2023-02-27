@@ -2,10 +2,9 @@ import { DocumentData } from "firebase/firestore";
 
 type Props = {
   message: DocumentData;
-  scrollRef: any;
 };
 
-const Message = ({ message, scrollRef }: Props) => {
+const Message = ({ message }: Props) => {
   const isChatGPT = message.user.name === "ChatGPT";
 
   return (
