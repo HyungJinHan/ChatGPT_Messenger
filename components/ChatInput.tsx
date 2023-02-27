@@ -29,8 +29,6 @@ const ChatInput = ({ chatId, scrollRef }: Props) => {
     const input = prompt.trim();
     setPrompt("");
 
-    scrollRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
-
     const message: Message = {
       text: input,
       createAt: serverTimestamp(),
@@ -57,6 +55,8 @@ const ChatInput = ({ chatId, scrollRef }: Props) => {
       ),
       message
     );
+
+    scrollRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
 
     // Toast Notification
     await fetch("/api/askQuestion", {
