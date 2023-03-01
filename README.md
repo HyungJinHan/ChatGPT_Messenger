@@ -62,24 +62,44 @@
 
 <div align='center'>
 
-| Login / New Chat / Select Models                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3abf7f4f-dd32-4939-89b5-07b2473c80c6/gpt1.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230227T142855Z&X-Amz-Expires=86400&X-Amz-Signature=282784849328e0738fca6e920cfb6cd2c5c7cbcfa12447d95ca78939ad896bb2&X-Amz-SignedHeaders=host&x-id=GetObject"> |
+| Login / Main                                     |
+| ------------------------------------------------ |
+| <img src="./public/projectScreen/loginMain.gif"> |
 
-| Delete Chats / Chatting                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/285c4b99-bf9f-48d5-b364-37b3a7d75d35/gpt2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230227T142901Z&X-Amz-Expires=86400&X-Amz-Signature=00ee41a1a2e6a8953f38a76545436f98b596bc75e3e432e41cfa4b6484045a57&X-Amz-SignedHeaders=host&x-id=GetObject"> |
+<br>
 
-| Compare Models                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/05b3c470-8a51-42b1-a16a-9f044b4a6c68/gpt3.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230227T142910Z&X-Amz-Expires=86400&X-Amz-Signature=10ec591fe6db34d8d1fd4fa05860b75e214894a73dee44a47882e03eea5dd2a4&X-Amz-SignedHeaders=host&x-id=GetObject"> |
+| New Chat / Select Models                               |
+| ------------------------------------------------------ |
+| <img src="./public/projectScreen/newChatModelsel.gif"> |
 
-| Logout                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/72eb3f80-4260-401e-b163-d89e0add4789/gpt4.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230227T142912Z&X-Amz-Expires=86400&X-Amz-Signature=3260f22d0459cce42ffd318e82c14043102766c3b84b1bf38f2a3ce7d1d1fdcf&X-Amz-SignedHeaders=host&x-id=GetObject"> |
+<br>
 
-| Tablet Version                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/41a0f18f-e1e2-4329-aef1-ec8e794f5c24/gpt5.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230227T142925Z&X-Amz-Expires=86400&X-Amz-Signature=27e746f65ac33f560e39435149a4f2a9a63f3a84a58a67cfef7d2b50c4ae52c1&X-Amz-SignedHeaders=host&x-id=GetObject"> |
+| Chat / Delete Chats                            |
+| ---------------------------------------------- |
+| <img src="./public/projectScreen/chatDel.gif"> |
+
+</div>
+
+| Chat History                                   |
+| ---------------------------------------------- |
+| <img src="./public/projectScreen/preChat.gif"> |
+
+</div>
+
+| Auto Scroll                                       |
+| ------------------------------------------------- |
+| <img src="./public/projectScreen/autoScroll.gif"> |
+
+</div>
+
+| Compare Models                                      |
+| --------------------------------------------------- |
+| <img src="./public/projectScreen/compareModel.gif"> |
+
+</div>
+
+| Logout                                        |
+| --------------------------------------------- |
+| <img src="./public/projectScreen/logout.gif"> |
 
 </div>
