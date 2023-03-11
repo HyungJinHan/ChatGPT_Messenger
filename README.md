@@ -78,25 +78,25 @@
 | ---------------------------------------------- |
 | <img src="./public/projectScreen/chatDel.gif"> |
 
-</div>
+<br>
 
 | Chat History                                   |
 | ---------------------------------------------- |
 | <img src="./public/projectScreen/preChat.gif"> |
 
-</div>
+<br>
 
 | Auto Scroll                                       |
 | ------------------------------------------------- |
 | <img src="./public/projectScreen/autoScroll.gif"> |
 
-</div>
+<br>
 
 | Compare Models                                      |
 | --------------------------------------------------- |
 | <img src="./public/projectScreen/compareModel.gif"> |
 
-</div>
+<br>
 
 | Logout                                        |
 | --------------------------------------------- |
