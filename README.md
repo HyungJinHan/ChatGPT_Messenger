@@ -56,7 +56,7 @@
 
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=OpenAI&logoColor=white">
 
-<br>
+<br><br>
 
 # 2. 프로젝트 상세 내용
 
