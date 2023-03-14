@@ -1,7 +1,7 @@
 # ChatGPT Messenger
 
 <div align='center'>
-<a href='https://chatgpt-messenger-hyungjinhan.vercel.app/'>
+<a href='https://chatgpt-messenger-hyungjinhan.vercel.app/' target="_blank">
 <img width='50%' src="./public/chatGpt.svg">
 </a>
 
