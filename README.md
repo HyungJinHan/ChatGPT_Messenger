@@ -15,7 +15,7 @@
 
 <div align='center'>
 
-### `TypeScript`를 기반의 `OpenAI API`를 활용한 `ChatGPT Messenger` 클론 프로젝트입니다.
+### `TypeScript`를 기반으로 `OpenAI API`를 활용한 `ChatGPT Messenger` 클론 프로젝트입니다.
 
 </div>
 
