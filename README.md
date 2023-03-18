@@ -2,10 +2,6 @@
 
 <div align='center'>
 
-### `TypeScript`를 기반으로 `OpenAI API`를 활용한 `ChatGPT Messenger` 클론 프로젝트입니다.
-
-<br>
-
 <a href='https://chatgpt-messenger-hyungjinhan.vercel.app/' target="_blank">
 <img width='50%' src="./public/chatGpt.svg">
 </a>
@@ -13,6 +9,14 @@
 <br>
 
 ### ▲ **이미지 클릭으로 `ChatGPT Messenger` 사이트로 이동** ▲
+
+</div>
+
+<br>
+
+<div align='center'>
+
+### `TypeScript`를 기반으로 `OpenAI API`를 활용한 `ChatGPT Messenger` 클론 프로젝트입니다.
 
 </div>
 
