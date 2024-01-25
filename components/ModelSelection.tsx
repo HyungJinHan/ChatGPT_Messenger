@@ -5,7 +5,7 @@ import useSWR from "swr";
 
 const fetchModels = () => fetch("/models", {
   headers : {
-    Authorization : process.env.NEXT_PUBLIC_OPENAI_API_KEY,
+    Authorization : `${process.env.NEXT_PUBLIC_OPENAI_API_KEY}`,
     Accept: "application/json",
     "Content-Type": "application/json",
 }
