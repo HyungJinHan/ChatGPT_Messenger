@@ -10,7 +10,6 @@ const query = async (prompt: string, chatId: string, model: string) => {
       top_p: 1,
       frequency_penalty: 0,
       presence_penalty: 0,
-      stop: ["Human: ", "AI: "],
     })
     .then((res) => res.data.choices[0].text)
     .catch(
