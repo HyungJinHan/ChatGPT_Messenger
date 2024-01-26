@@ -18,7 +18,7 @@ const ChatInput = ({ chatId, scrollRef }: Props) => {
   const { data: session } = useSession();
 
   // useSWR to get model
-  const model = "gpt-4";
+  const model = "text-davinci-003";
   // Open AI의 GPT 모델의 종류
 
   const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
@@ -61,9 +61,9 @@ const ChatInput = ({ chatId, scrollRef }: Props) => {
     // Toast Notification
     await fetch("/api/askQuestion", {
       method: "POST",
-      headers : {
+      headers: {
         "Content-Type": "application/json",
-    },
+      },
       body: JSON.stringify({
         prompt: input,
         chatId,
@@ -94,8 +94,7 @@ const ChatInput = ({ chatId, scrollRef }: Props) => {
         <button
           className="bg-[#74AA9C] hover:opacity-50 text-white font-bold px-4 py-2 rounded disabled:bg-gray-300 disabled:cursor-not-allowed"
           disabled={!prompt || !session}
-          type="submit"
-        >
+          type="submit">
           <PaperAirplaneIcon className="h-4 w-4 -rotate-45" />
         </button>
       </form>
