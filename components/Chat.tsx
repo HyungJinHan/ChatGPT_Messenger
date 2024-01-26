@@ -40,8 +40,8 @@ const Chat = ({ chatId, scrollRef }: Props) => {
           <ArrowDownCircleIcon className="h-10 w-10 mx-auto mt-5 text-white animate-bounce" />
         </>
       )}
-      {messages?.docs.map((message) => (
-        <Message message={message.data()} />
+      {messages?.docs.map((message, index) => (
+        <Message key={index} message={message.data()} />
       ))}
       <p ref={scrollRef}></p>
     </div>
