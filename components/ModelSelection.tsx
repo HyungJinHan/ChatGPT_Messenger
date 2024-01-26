@@ -3,13 +3,7 @@
 import Select from "react-select";
 import useSWR from "swr";
 
-const fetchModels = () => fetch("/models", {
-  headers : {
-    Authorization : `${process.env.NEXT_PUBLIC_OPENAI_API_KEY}`,
-    Accept: "application/json",
-    "Content-Type": "application/json",
-}
-}).then((res) => res.json());
+const fetchModels = () => fetch("/api/getEngines").then((res) => res.json());
 
 /**
  * AI Model을 선택해서 고를 수 있는 컴포넌트

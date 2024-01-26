@@ -59,7 +59,7 @@ const ChatInput = ({ chatId, scrollRef }: Props) => {
     scrollRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
 
     // Toast Notification
-    await fetch("/", {
+    await fetch("/api/askQuestion", {
       method: "POST",
       headers : {
         Authorization : `${process.env.NEXT_PUBLIC_OPENAI_API_KEY}`,
