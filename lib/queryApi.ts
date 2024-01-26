@@ -12,7 +12,6 @@ const query = async (prompt: string, chatId: string, model: string) => {
       presence_penalty: 0,
     })
     .then((res) => {
-      console.log(res);
       return res.data.choices[0].text;
     })
     .catch((err) => {
