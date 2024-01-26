@@ -18,8 +18,8 @@ const ChatInput = ({ chatId, scrollRef }: Props) => {
   const { data: session } = useSession();
 
   // useSWR to get model
-  const model = "text-davinci-003";
-  // Open AI의 GPT-3 모델의 종류
+  const model = "gpt-4";
+  // Open AI의 GPT 모델의 종류
 
   const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
