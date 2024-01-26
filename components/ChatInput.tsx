@@ -62,8 +62,6 @@ const ChatInput = ({ chatId, scrollRef }: Props) => {
     await fetch("/api/askQuestion", {
       method: "POST",
       headers : {
-        Authorization : `${process.env.NEXT_PUBLIC_OPENAI_API_KEY}`,
-        Accept: "application/json",
         "Content-Type": "application/json",
     },
       body: JSON.stringify({
